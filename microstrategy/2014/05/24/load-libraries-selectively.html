@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Rinbo Consulting</title>
+    <title>Loading JavaScript libraries selectively in MicroStrategy Web</title>
     <meta name="description" content="A mixture of thoughts on Business Intelligence, MicroStrategy, and IT in general 
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.rinbo.co.uk/">
+    <link rel="canonical" href="http://www.rinbo.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html">
 </head>
 
 
@@ -54,55 +54,29 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <h1 class="page-heading">Posts</h1>
+  <header class="post-header">
+    <h1 class="post-title">Loading JavaScript libraries selectively in MicroStrategy Web</h1>
+    <p class="post-meta">May 24, 2014</p>
+  </header>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jul 11, 2014</span>
+  <article class="post-content">
+    <p>Hacking JavaScript libraries (jQuery, Prototype, D3.js et al) into the MicroStrategy Web interface is pretty easy (<a href="http://www.bryanbrandow.com/2013/01/using-jquery-in-microstrategy-dashboards.html">Bryan describes a couple of ways to do it here</a>), but there’s a third way, that leverages some built-in MicroStrategy functionality, and allows you to easily execute code when the external libraries are asynchronously loaded.</p>
 
-        <h2>
-          <a class="post-link" href="/microstrategy/2014/07/11/mstr-world-europe-2014.html">MicroStrategy Europe World 2014 - quick thoughts</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 24, 2014</span>
+<p>It’s an area that the formal documentation doesn’t cover (yet), but <a href="https://www.microstrategy.com/us/microstrategyworld/resource?world-res=v1247">buried in this presentation from Las Vegas 2014</a> is a handy JavaScript function. It’s only available in Express mode, but if you’re customising a document in this manner, you’re almost certainly planning on restricting the functionality to this mode.</p>
 
-        <h2>
-          <a class="post-link" href="/microstrategy/2014/05/24/load-libraries-selectively.html">Loading JavaScript libraries selectively in MicroStrategy Web</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 20, 2014</span>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;script&gt;</span>
+<span class="nx">mstrmojo</span><span class="p">.</span><span class="nx">_LoadsScript</span><span class="p">.</span><span class="nx">requiresExternalScripts</span><span class="p">(</span>
+  <span class="p">[{</span><span class="nx">url</span><span class="o">:</span> <span class="s2">&quot;http://your/library.url&quot;</span><span class="p">}],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Put your JavaScript to run after loading here</span>
+  <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span></code></pre></div>
 
-        <h2>
-          <a class="post-link" href="/microstrategy/2014/02/20/beyond-command-manager.html">Beyond Command Manager, into true source control</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 11, 2014</span>
+<p>Adding a fragment like that to an HTML Container on your Report Services document will load an external script (or a number of scripts, as the function takes an array), and then call the function you specify once they’ve loaded. It’s an ideal workflow if you need to load a library, and then immediately use it to customise the appearance of the document.</p>
 
-        <h2>
-          <a class="post-link" href="/microstrategy/2014/02/11/groovy-and-mstr.html">Getting Groovy with the MicroStrategy SDK</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Nov 14, 2013</span>
 
-        <h2>
-          <a class="post-link" href="/observations/2013/11/14/quick-and-dirty.html">Quick and Dirty</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
