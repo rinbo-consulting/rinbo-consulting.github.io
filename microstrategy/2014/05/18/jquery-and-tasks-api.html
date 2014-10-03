@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>About this blog</title>
+    <title>Hacking MicroStrategy the right way; jQuery and the Tasks API</title>
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.rinbo.co.uk/about/">
+    <link rel="canonical" href="http://www.rinbo.co.uk/microstrategy/2014/05/18/jquery-and-tasks-api.html">
 </head>
 
 
@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/about/">About this blog</a>
+          <a class="page-link" href="/about-the-blog/">About the blog</a>
           
         
           
@@ -57,16 +57,16 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About this blog</h1>
+    <h1 class="post-title">Hacking MicroStrategy the right way; jQuery and the Tasks API</h1>
+    <p class="post-meta">May 18, 2014</p>
   </header>
 
   <article class="post-content">
-    <p>Working in IT for the best part of 15 years, and in business intelligence specifically for a decade, I’ve learned a lot, some  the hard way, and some the easy way. I’ve been a permanent employee, a contractor, I’ve worked on small greenfield projects, and large multinational behemoths. I’ve been exposed to plenty of different development and project management methodologies, and seen most of them suceed and fail.</p>
+    <p>The time has come - you want to customise some aspect of MicroStrategy’s web interface, but you’re scared of the SDK and its documentation (although it’s not as frightening as you think), and the functionality you need is based around user interactions. You’re okay with a little JavaScript, so you tentatively add a customisation to load the jQuery library (<a href="load-libraries-selectively">make sure you do that the smart way though</a>).</p>
 
-<p>I thought it was about time that I had a place to keep track of some of my observations, as contemporaneously as is discreet. It’ll be sporadic, but aren’t most blogs?</p>
+<p>Just because you’re going off-piste with your own front-end code that MicroStrategy doesn’t know about, you’re not disconnected entirely. There’s a whole simple API available to you to assist with functionality far beyond what you can achieve with just jQuery; the <strong>Tasks API</strong>.</p>
 
-<p>Also, I have found myself working with a technology (<a href="http://www.microstrategy.com">MicroStrategy</a>) that doesn’t seem to have a huge online community. There aren’t many good resources/blogs outside of the vendor’s offerings, so I thought that I’d keep a note of some of the more interesting and out-of-the-ordinary things I do, professionally speaking. Eventually, I’d like to build up a GitHub repo with some example code for people to use. I won’t be doing step-by-step guides, but if you have the inclination, you should be able to leverage some of the things I’ve been doing.</p>
-
+<p>This API is pretty powerful, in fact it’s used to power the Visual Insights flash mode.</p>
 
   </article>
 

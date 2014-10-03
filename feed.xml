@@ -6,65 +6,174 @@
 </description>
     <link>http://www.rinbo.co.uk/</link>
     <atom:link href="http://www.rinbo.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Oct 2014 08:03:10 +0100</pubDate>
-    <lastBuildDate>Fri, 03 Oct 2014 08:03:10 +0100</lastBuildDate>
+    <pubDate>Fri, 03 Oct 2014 20:27:22 +0100</pubDate>
+    <lastBuildDate>Fri, 03 Oct 2014 20:27:22 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>MicroStrategy Europe World 2014 - quick thoughts</title>
+        <description>&lt;p&gt;&lt;em&gt;Unfortunately my current job doesn’t afford me the opportunity to attend events like this, so I’m just going on the live-streamed keynotes. (As an aside, if you do get the chance to attend, you should. The sessions called “TechTalks” are particularly useful, making experts available to answer your in-depth questions).&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Zero footprint is coming back (bye bye Flash, hello HTML5)&lt;/li&gt;
+  &lt;li&gt;The battle with Tableau continues (Desktop continues improving, less gap between Visual Insight and Report Services)&lt;/li&gt;
+  &lt;li&gt;Better integration between Desktop and Enterprise (remapping dashboards and their objects to equivalents in the Enterprise dataset)&lt;/li&gt;
+  &lt;li&gt;More data sources, data wrangling arrives (manipulating data stored directly in HDFS for example)&lt;/li&gt;
+  &lt;li&gt;Web Architect (another nail in the coffin for the old Deskop/Developer application, thank god)&lt;/li&gt;
+  &lt;li&gt;Mobile pushes on, lots of geographic/location/proximity stuff, Android app rebuilt&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;More coming&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;When I get the chance to watch the sessions in full over the weekend, I’ll come back to this post and flesh it out with some commentary.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 02 Oct 2014 22:26:54 +0100</pubDate>
-        <link>http://www.rinbo.co.uk/jekyll/update/2014/10/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://www.rinbo.co.uk/jekyll/update/2014/10/02/welcome-to-jekyll.html</guid>
+        <pubDate>Fri, 11 Jul 2014 13:08:00 +0100</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>microstrategy</category>
         
       </item>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve --watch&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Loading JavaScript libraries selectively in MicroStrategy Web</title>
+        <description>&lt;p&gt;Hacking JavaScript libraries into the MicroStrategy Web interface is pretty easy (&lt;a href=&quot;http://www.bryanbrandow.com/2013/01/using-jquery-in-microstrategy-dashboards.html&quot;&gt;Bryan describes a couple of ways to do it here&lt;/a&gt;), but there’s a third way, that’s a little bit more involved, that gives you the best of both worlds.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;We’ll be adding an extended property to the metadata for Report Services documents (or even reports, if they’re the category of object you need to use an external library with), and then adding a plugin in that generates the appropriate &lt;code&gt;&amp;lt;script&amp;gt;&lt;/code&gt; tags in the HTML if the extended property is set. This way, with a little more effort up front, we can avoid adding custom HTML to load the library into the document (simplifying debugging), and also avoid the unnecessary overhead of code that’s not needed to render our “normal” pages. Additionally, the extended property is moved around correctly by Object Manager and its relatives, so there’s nothing manual to do once the setting’s in place.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 May 2014 13:04:00 +0100</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html</guid>
+        
+        <category>Technical</category>
+        
+        <category>SDK</category>
+        
+        
+        <category>microstrategy</category>
+        
+      </item>
+    
+      <item>
+        <title>Hacking MicroStrategy the right way; jQuery and the Tasks API</title>
+        <description>&lt;p&gt;The time has come - you want to customise some aspect of MicroStrategy’s web interface, but you’re scared of the SDK and its documentation (although it’s not as frightening as you think), and the functionality you need is based around user interactions. You’re okay with a little JavaScript, so you tentatively add a customisation to load the jQuery library (&lt;a href=&quot;load-libraries-selectively&quot;&gt;make sure you do that the smart way though&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Just because you’re going off-piste with your own front-end code that MicroStrategy doesn’t know about, you’re not disconnected entirely. There’s a whole simple API available to you to assist with functionality far beyond what you can achieve with just jQuery; the &lt;strong&gt;Tasks API&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;This API is pretty powerful, in fact it’s used to power the Visual Insights flash mode.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 18 May 2014 22:37:00 +0100</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/05/18/jquery-and-tasks-api.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/05/18/jquery-and-tasks-api.html</guid>
+        
+        <category>jQuery</category>
+        
+        <category>&quot;Tasks</category>
+        
+        <category>API&quot;</category>
+        
+        <category>Technical</category>
+        
+        <category>SDK</category>
+        
+        
+        <category>microstrategy</category>
+        
+      </item>
+    
+      <item>
+        <title>Helping Out</title>
+        <description>&lt;p&gt;The latest version of MicroStrategy comes with an out of the box link to vendor-hosted help pages. These are probably better, and more extensive, than anything you’re going to do in-house.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However well-written they are though, they’re not always going to be a perfect fit, for your users, or your particular implementation. Perhaps you want to encourage people not to save copies of reports, but rather save personal prompt answers. Perhaps you’ve got some guidance and documentation about the model of the business you’ve created in the tool. Regardless, It would be good to be able to link to that documentation directly in the front end of the tool, as well as via a separate website. (I hope you’re not distributing Word documents, or god forbid, Powerpoint presentations, as documentation. It &lt;strong&gt;is&lt;/strong&gt; the 21st Century you know!)&lt;/p&gt;
+
+&lt;p&gt;Now, there is an example in the excellent SDK documentation that details how to customise the MicroStrategy help files, but often custom documentation needs to sit alongside the standard help files.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Mar 2014 11:43:00 +0000</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/03/21/helping-out.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/03/21/helping-out.html</guid>
+        
+        <category>SDK</category>
+        
+        <category>Technical</category>
+        
+        
+        <category>microstrategy</category>
+        
+      </item>
+    
+      <item>
+        <title>Beyond Command Manager, into true source control</title>
+        <description>&lt;p&gt;As MicroStrategy’s declared plan to move away from desktops into the cloud progresses, there is one nice side effect. As their old COM-based applications (Desktop/Developer, Object Manager) are allowed to wither on the vine, more functionality moves into their Web API, which means Java, which means plenty of modern technologies for us to leverage.&lt;/p&gt;
+
+&lt;p&gt;I mentioned in an earlier post that Groovy is a Java-based scripting language that already allows us to move past the limited procedural functionality that comes in Command Manager. As more and more functionality (whether it be documented or documented) becomes visible in this API, a true MicroStrategy &lt;a href=&quot;http://en.wikipedia.org/wiki/Domain-specific_language&quot;&gt;Domain-specific Language&lt;/a&gt; (DSL) becomes a possibility, &lt;a href=&quot;http://www.slideshare.net/glaforge/groovy-dsls-from-beginner-to-expert-guillaume-laforge-and-paul-king-springone2gx-2011&quot;&gt;using Groovy&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Administrative tasks that were previously complex could be made trivially simple, particularly time-intensive ones involving lots of objects. As full creation of all types of objects becomes possible through the web interface, using a DSL to generate objects is also a reality, and that means full, text-based, version control, using whichever platform you decide. Whilst MicroStrategy’s internal dependency checks will still prove useful, those version GUIDs could become irrelevant. True comparision, based on definitions, become the basis for checking the validity of objects between projects.&lt;/p&gt;
+
+&lt;p&gt;Now, this might very well be something MicroStrategy is already planning, but even if it isn’t, it’s a side effect of the move to the cloud, if they choose to do away with their desktop apps. A hugely powerful, mature, and broad, toolset is almost at hand. Exciting times, particularly for those of us working on large deployments.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 02 Oct 2014 22:26:54 +0100</pubDate>
-        <link>http://www.rinbo.co.uk/blog/jekyll/update/2014/10/02/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://www.rinbo.co.uk/blog/jekyll/update/2014/10/02/welcome-to-jekyll.html</guid>
+        <pubDate>Thu, 20 Feb 2014 19:37:00 +0000</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/02/20/beyond-command-manager.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/02/20/beyond-command-manager.html</guid>
+        
+        <category>Groovy</category>
+        
+        <category>SDK</category>
+        
+        <category>Technical</category>
+        
+        <category>Java</category>
         
         
-        <category>blog</category>
+        <category>microstrategy</category>
         
-        <category>jekyll</category>
+      </item>
+    
+      <item>
+        <title>Getting Groovy with the MicroStrategy SDK</title>
+        <description>&lt;p&gt;MicroStrategy has a reasonably well-documented Web SDK, using Java, but don’t think that you’re restricted to just developing customisations to the web interface.&lt;/p&gt;
+
+&lt;p&gt;Although the functionality of Command Manager has been extended to include procedures, which allows programatic manipulation of objects, it’s still quite limited. It takes one beyond using Excel to create repetitive scripts, but non-trivial tasks are still harder than they should be. This is primarily because Command Manager’s vocabulary is still limited, even though it’s extending with each release.&lt;/p&gt;
+
+&lt;p&gt;Become familiar with the slightly more complicated Web SDK, equip yourself with an installation of &lt;a href=&quot;http://groovy.codehaus.org&quot;&gt;Groovy&lt;/a&gt;, and we can easily create straightforward scripts that accomplish tasks far beyond the realms of what is possible with Command Manager.&lt;/p&gt;
+
+&lt;p&gt;To give a real world example, I recently needed to edit around 2,000 reports which had prompts embedded in their templates. These reports needed the template prompts answered, and then saved in the definition of the report, such that the only prompts that remained were in the report filters.&lt;/p&gt;
+
+&lt;p&gt;There is no mechanism to do this within Command Manager, and I shudder to think how long it would have taken to do manually. The script probably took around 30 minutes to put together (after I had reacquainted myself with the appropriate classes in the SDK), and 10 minutes to execute. Even allowing 30 seconds per report that would have taken over 16 hours to do manually.&lt;/p&gt;
+
+&lt;p&gt;My intention is to build up an open sourced library of useful generic scripts, so I’ll expand on how to install and use Groovy with the MicroStrategy SDK in a future post.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 11 Feb 2014 20:14:00 +0000</pubDate>
+        <link>http://www.rinbo.co.uk/microstrategy/2014/02/11/groovy-and-mstr.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/microstrategy/2014/02/11/groovy-and-mstr.html</guid>
         
-        <category>update</category>
+        <category>Groovy</category>
+        
+        <category>SDK</category>
+        
+        <category>Technical</category>
+        
+        
+        <category>microstrategy</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick and Dirty</title>
+        <description>&lt;p&gt;“Quick and dirty” also means “cheap and done”. Worth remembering when someone uses it in a pejorative sense. &lt;/p&gt;
+
+&lt;p&gt;Particularly when their project is late, and over-budget.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 14 Nov 2013 21:59:00 +0000</pubDate>
+        <link>http://www.rinbo.co.uk/observations/2013/11/14/quick-and-dirty.html</link>
+        <guid isPermaLink="true">http://www.rinbo.co.uk/observations/2013/11/14/quick-and-dirty.html</guid>
+        
+        <category>Non-technical</category>
+        
+        
+        <category>observations</category>
         
       </item>
     
