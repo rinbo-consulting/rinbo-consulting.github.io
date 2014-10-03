@@ -17,7 +17,7 @@ include:
 exclude:
   - ".gitignore"
   - "Rakefile"
-  - "Gruntfile.js"
+  - "Gruntfile.coffee"
   - "node_modules"
   - "package.json"
   - "bower_components"
