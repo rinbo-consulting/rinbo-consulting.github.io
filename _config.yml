@@ -4,7 +4,7 @@ email: info@rinbo-consulting.co.uk
 description: > # this means to ignore newlines until "baseurl:"
   A mixture of thoughts on Business Intelligence, MicroStrategy, and IT in general 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.rinbo.co.uk" # the base hostname & protocol for your site
+url: "http://www.rinbo-consulting.co.uk" # the base hostname & protocol for your site
 twitter_username: rinboconsulting
 github_username:  rinboconsulting
 
