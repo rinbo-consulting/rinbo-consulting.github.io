@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>MicroStrategy Europe World 2014 - quick thoughts</title>
+    <title>Current Projects</title>
     <meta name="description" content="A mixture of thoughts on Business Intelligence, MicroStrategy, and IT in general 
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.rinbo-consulting.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html">
+    <link rel="canonical" href="http://www.rinbo-consulting.co.uk/current-projects/">
 </head>
 
 
@@ -65,24 +65,16 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">MicroStrategy Europe World 2014 - quick thoughts</h1>
-    <p class="post-meta">Jul 11, 2014</p>
+    <h1 class="post-title">Current Projects</h1>
   </header>
 
   <article class="post-content">
-    <p><em>Unfortunately my current job doesn’t afford me the opportunity to attend events like this, so I’m just going on the live-streamed keynotes. (As an aside, if you do get the chance to attend, you should. The sessions called “TechTalks” are particularly useful, making experts available to answer your in-depth questions).</em></p>
+    <p>I often have something on the back burner, to keep my brain ticking over during those times when paid work isn’t providing the challenge that it might. At the moment I’m working on a couple of BI-related projects:</p>
 
 <ul>
-  <li>Zero footprint is coming back (bye bye Flash, hello HTML5)</li>
-  <li>The battle with Tableau continues (Desktop continues improving, less gap between Visual Insight and Report Services)</li>
-  <li>Better integration between Desktop and Enterprise (remapping dashboards and their objects to equivalents in the Enterprise dataset)</li>
-  <li>More data sources, data wrangling arrives (manipulating data stored directly in HDFS for example)</li>
-  <li>Web Architect (another nail in the coffin for the old Deskop/Developer application, thank god)</li>
-  <li>Mobile pushes on, lots of geographic/location/proximity stuff, Android app rebuilt</li>
-  <li><em>More coming</em></li>
+  <li>Deployment Director - This is a web application for managing MicroStrategy code deployments. It handles Object Manager packages, automatically applying them, in batches if necessary, and creating undo packages for you. You can instantly see which pieces of functionality are where in the deployment cycle.</li>
+  <li>Schema Source Code - Version control is an area of weakness for MicroStrategy. Objects with identical definitions can have different Version IDs (unless you’re careful with how you make changes; see Deployment Director). This Groovy-based project produces human-readable source files for all MicroStrategy schema objects. This files can then be traditionally source-controlled, and the real differences between projects can be easily visualised. </li>
 </ul>
-
-<p>When I get the chance to watch the sessions in full over the weekend, I’ll come back to this post and flesh it out with some commentary.</p>
 
   </article>
 
