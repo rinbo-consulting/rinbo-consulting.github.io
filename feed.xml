@@ -6,8 +6,8 @@
 </description>
     <link>http://www.rinbo-consulting.co.uk/</link>
     <atom:link href="http://www.rinbo-consulting.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Oct 2014 13:08:09 +0100</pubDate>
-    <lastBuildDate>Mon, 06 Oct 2014 13:08:09 +0100</lastBuildDate>
+    <pubDate>Wed, 08 Oct 2014 13:00:11 +0100</pubDate>
+    <lastBuildDate>Wed, 08 Oct 2014 13:00:11 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -41,12 +41,7 @@
 
 &lt;p&gt;It’s an area that the formal documentation doesn’t cover (yet), but &lt;a href=&quot;https://www.microstrategy.com/us/microstrategyworld/resource?world-res=v1247&quot;&gt;buried in this presentation from Las Vegas 2014&lt;/a&gt; is a handy JavaScript function. It’s only available in Express mode, but if you’re customising a document in this manner, you’re almost certainly planning on restricting the functionality to this mode.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;mstrmojo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_LoadsScript&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;requiresExternalScripts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;http://your/library.url&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}],&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Put your JavaScript to run after loading here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;script src=&quot;https://gist.github.com/paulbailey/22e06c91e7d41b51a010.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;Adding a fragment like that to an HTML Container on your Report Services document will load an external script (or a number of scripts, as the function takes an array), and then call the function you specify once they’ve loaded. It’s an ideal workflow if you need to load a library, and then immediately use it to customise the appearance of the document.&lt;/p&gt;
 
