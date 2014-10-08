@@ -10,14 +10,7 @@ Hacking JavaScript libraries (jQuery, Prototype, D3.js et al) into the MicroStra
 
 It's an area that the formal documentation doesn't cover (yet), but [buried in this presentation from Las Vegas 2014][2] is a handy JavaScript function. It's only available in Express mode, but if you're customising a document in this manner, you're almost certainly planning on restricting the functionality to this mode.
 
-{% highlight html %}
-<script>
-mstrmojo._LoadsScript.requiresExternalScripts(
-  [{url: "http://your/library.url"}], function() {
-    // Put your JavaScript to run after loading here
-  });
-</script>
-{% endhighlight %}
+{% gist paulbailey/22e06c91e7d41b51a010 %}
 
 Adding a fragment like that to an HTML Container on your Report Services document will load an external script (or a number of scripts, as the function takes an array), and then call the function you specify once they've loaded. It's an ideal workflow if you need to load a library, and then immediately use it to customise the appearance of the document.
 
