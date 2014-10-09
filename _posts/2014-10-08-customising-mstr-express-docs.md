@@ -14,6 +14,6 @@ This is why I would strongly encourage you to become familiar with the developer
 
 In particular, there is the `mstrmojo` object, which contains all the JS functionality MicroStrategy uses. It has an `all` property which contains references to all of the objects that are on the document, rendered or not. It also has properties that you can use to find the appropriate object every time, which won't change accidentally when some seemingly-unrelated change is made elsewhere on the document.
 
-As I say, I encourage you to have a dig around the objects that you can see in the console, but here are a couple of useful functions to get you started.
+As I say, I encourage you to have a dig around the objects that you can see in the console, but here's a useful example function to get you started.
 
-TODO Put Gist here
+{% gist paulbailey/02c150eac6cd72c38e08 %}
