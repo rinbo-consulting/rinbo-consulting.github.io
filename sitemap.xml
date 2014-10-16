@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/10/08/customising-mstr-express-docs.html</loc>
+    
+    <lastmod>2014-10-08T13:04:00+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html</loc>
+    
+    <lastmod>2014-07-11T13:08:00+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html</loc>
+    
+    <lastmod>2014-05-24T13:04:00+01:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/02/20/beyond-command-manager.html</loc>
+    
+    <lastmod>2014-02-20T19:37:00+00:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/02/11/groovy-and-mstr.html</loc>
+    
+    <lastmod>2014-02-11T20:14:00+00:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/observations/2013/11/14/quick-and-dirty.html</loc>
+    
+    <lastmod>2013-11-14T21:59:00+00:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/about-the-company/</loc>
+    <lastmod>2014-10-16T13:03:01+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/about-the-blog/</loc>
+    <lastmod>2014-10-16T13:03:01+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/current-projects/</loc>
+    <lastmod>2014-10-16T13:03:01+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rinbo-consulting.co.uk/</loc>
+    <lastmod>2014-10-16T13:03:01+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  
+  
+</urlset>
