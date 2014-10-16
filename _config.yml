@@ -22,3 +22,6 @@ exclude:
   - "package.json"
   - "bower_components"
   - "bower.json"
+
+gems:
+  - jekyll-sitemap
