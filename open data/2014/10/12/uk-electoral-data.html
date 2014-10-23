@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Beyond Command Manager, into true source control</title>
+    <title>Visualising UK electoral data: open source data, open source tools</title>
     <meta name="description" content="A mixture of thoughts on Business Intelligence, MicroStrategy, and IT in general 
 ">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="http://www.rinbo-consulting.co.uk/microstrategy/2014/02/20/beyond-command-manager.html">
+    <link rel="canonical" href="http://www.rinbo-consulting.co.uk/open%20data/2014/10/12/uk-electoral-data.html">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -73,18 +73,34 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Beyond Command Manager, into true source control</h1>
-    <p class="post-meta">Feb 20, 2014</p>
+    <h1 class="post-title">Visualising UK electoral data: open source data, open source tools</h1>
+    <p class="post-meta">Oct 12, 2014</p>
   </header>
 
   <article class="post-content">
-    <p>As MicroStrategy’s declared plan to move away from desktops into the cloud progresses, there is one nice side effect. As their old COM-based applications (Desktop/Developer, Object Manager) are allowed to wither on the vine, more functionality moves into their Web API, which means Java, which means plenty of modern technologies for us to leverage.</p>
+    <p>The recent by-election in Clacton piqued my interest in next year’s general election, and I wondered how easy it might be to put together some visualisations showing what happened last time, and what might be happen in 2015.</p>
 
-<p>I mentioned in an earlier post that Groovy is a Java-based scripting language that already allows us to move past the limited procedural functionality that comes in Command Manager. As more and more functionality (whether it be documented or documented) becomes visible in this API, a true MicroStrategy <a href="http://en.wikipedia.org/wiki/Domain-specific_language">Domain-specific Language</a> (DSL) becomes a possibility, <a href="http://www.slideshare.net/glaforge/groovy-dsls-from-beginner-to-expert-guillaume-laforge-and-paul-king-springone2gx-2011">using Groovy</a>.</p>
+<h3 id="find-the-data">1. Find the data</h3>
 
-<p>Administrative tasks that were previously complex could be made trivially simple, particularly time-intensive ones involving lots of objects. As full creation of all types of objects becomes possible through the web interface, using a DSL to generate objects is also a reality, and that means full, text-based, version control, using whichever platform you decide. Whilst MicroStrategy’s internal dependency checks will still prove useful, those version GUIDs could become irrelevant. True comparision, based on definitions, become the basis for checking the validity of objects between projects.</p>
+<p>My first port of call was <a href="http://data.gov.uk">http://data.gov.uk</a>, an initiative launched by the UK government in 2009 to enable easier access to data produced by the British public sector. I soon found on the <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission’s website</a>, <a href="http://www.electoralcommission.org.uk/__data/assets/excel_doc/0003/105726/GE2010-results-flatfile-website.xls">which had an Excel spreadsheet containing all of the 2010 results</a>. A good start, and easy enough to get hold of.</p>
 
-<p>Now, this might very well be something MicroStrategy is already planning, but even if it isn’t, it’s a side effect of the move to the cloud, if they choose to do away with their desktop apps. A hugely powerful, mature, and broad, toolset is almost at hand. Exciting times, particularly for those of us working on large deployments.</p>
+<h3 id="find-the-tools">2. Find the tools</h3>
+
+<p>The data’s arranged by constituency, so a geographic visualisation seemed appropriate. This gives me the excuse to have a play around with <a href="http://d3js.org">D3.js (Data Driven Documents)</a>, a great-looking JavaScript library for “for manipulating documents based on data”. The <a href="https://github.com/mbostock/d3/wiki/Gallery">gallery of examples</a> shows just what is possible.</p>
+
+<h3 id="how-to-do-this">3. How to do this?</h3>
+
+<p>I just wanted a simple one-page website to start with, but I wanted it to look presentable without too much effort. To this end, I used <a href="http://bower.io">Bower</a> to set up the components I intended to use.</p>
+
+<ul>
+  <li>
+    <ul>
+      <li>Ordnance Survey - (no NI) http://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html https://www.ordnancesurvey.co.uk/opendatadownload/products.html</li>
+    </ul>
+  </li>
+  <li>Place names http://www.naturalearthdata.com/downloads/ http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_populated_places.zip</li>
+  <li>Tutorial http://bost.ocks.org/mike/map/</li>
+</ul>
 
 
   </article>

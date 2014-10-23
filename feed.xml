@@ -6,9 +6,51 @@
 </description>
     <link>http://www.rinbo-consulting.co.uk/</link>
     <atom:link href="http://www.rinbo-consulting.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Oct 2014 13:03:01 +0100</pubDate>
-    <lastBuildDate>Thu, 16 Oct 2014 13:03:01 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Oct 2014 12:58:58 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Oct 2014 12:58:58 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Visualising UK electoral data: open source data, open source tools</title>
+        <description>&lt;p&gt;The recent by-election in Clacton piqued my interest in next year’s general election, and I wondered how easy it might be to put together some visualisations showing what happened last time, and what might be happen in 2015.&lt;/p&gt;
+
+&lt;h3 id=&quot;find-the-data&quot;&gt;1. Find the data&lt;/h3&gt;
+
+&lt;p&gt;My first port of call was &lt;a href=&quot;http://data.gov.uk&quot;&gt;http://data.gov.uk&lt;/a&gt;, an initiative launched by the UK government in 2009 to enable easier access to data produced by the British public sector. I soon found on the &lt;a href=&quot;http://www.electoralcommission.org.uk/our-work/our-research/electoral-data&quot;&gt;Electoral Commission’s website&lt;/a&gt;, &lt;a href=&quot;http://www.electoralcommission.org.uk/__data/assets/excel_doc/0003/105726/GE2010-results-flatfile-website.xls&quot;&gt;which had an Excel spreadsheet containing all of the 2010 results&lt;/a&gt;. A good start, and easy enough to get hold of.&lt;/p&gt;
+
+&lt;h3 id=&quot;find-the-tools&quot;&gt;2. Find the tools&lt;/h3&gt;
+
+&lt;p&gt;The data’s arranged by constituency, so a geographic visualisation seemed appropriate. This gives me the excuse to have a play around with &lt;a href=&quot;http://d3js.org&quot;&gt;D3.js (Data Driven Documents)&lt;/a&gt;, a great-looking JavaScript library for “for manipulating documents based on data”. The &lt;a href=&quot;https://github.com/mbostock/d3/wiki/Gallery&quot;&gt;gallery of examples&lt;/a&gt; shows just what is possible.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-do-this&quot;&gt;3. How to do this?&lt;/h3&gt;
+
+&lt;p&gt;I just wanted a simple one-page website to start with, but I wanted it to look presentable without too much effort. To this end, I used &lt;a href=&quot;http://bower.io&quot;&gt;Bower&lt;/a&gt; to set up the components I intended to use.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Ordnance Survey - (no NI) http://www.ordnancesurvey.co.uk/business-and-government/licensing/using-creating-data-with-os-products/os-opendata.html https://www.ordnancesurvey.co.uk/opendatadownload/products.html&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Place names http://www.naturalearthdata.com/downloads/ http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_populated_places.zip&lt;/li&gt;
+  &lt;li&gt;Tutorial http://bost.ocks.org/mike/map/&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 12 Oct 2014 13:04:00 +0100</pubDate>
+        <link>http://www.rinbo-consulting.co.uk/open%20data/2014/10/12/uk-electoral-data.html</link>
+        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/open%20data/2014/10/12/uk-electoral-data.html</guid>
+        
+        <category>Technical</category>
+        
+        <category>JavaScript</category>
+        
+        <category>D3.js</category>
+        
+        
+        <category>open data</category>
+        
+      </item>
     
       <item>
         <title>Customising MicroStrategy Report Services Documents</title>
