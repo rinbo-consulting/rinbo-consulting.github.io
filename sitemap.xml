@@ -3,14 +3,6 @@
   
   
   <url>
-    <loc>http://www.rinbo-consulting.co.uk/open%20data/2014/10/12/uk-electoral-data.html</loc>
-    
-    <lastmod>2014-10-12T13:04:00+01:00</lastmod>
-    
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
     <loc>http://www.rinbo-consulting.co.uk/microstrategy/2014/10/08/customising-mstr-express-docs.html</loc>
     
     <lastmod>2014-10-08T13:04:00+01:00</lastmod>
@@ -61,28 +53,28 @@
   
   <url>
     <loc>http://www.rinbo-consulting.co.uk/about-the-company/</loc>
-    <lastmod>2014-10-23T12:58:58+01:00</lastmod>
+    <lastmod>2014-10-23T12:59:45+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.rinbo-consulting.co.uk/about-the-blog/</loc>
-    <lastmod>2014-10-23T12:58:58+01:00</lastmod>
+    <lastmod>2014-10-23T12:59:45+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.rinbo-consulting.co.uk/current-projects/</loc>
-    <lastmod>2014-10-23T12:58:58+01:00</lastmod>
+    <lastmod>2014-10-23T12:59:45+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://www.rinbo-consulting.co.uk/</loc>
-    <lastmod>2014-10-23T12:58:58+01:00</lastmod>
+    <lastmod>2014-10-23T12:59:45+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
