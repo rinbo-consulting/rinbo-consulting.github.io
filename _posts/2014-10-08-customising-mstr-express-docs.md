@@ -6,7 +6,7 @@ category: MicroStrategy
 tags: Technical SDK JavaScript
 ---
 
-Express mode is in many ways ideal for customisation with JavaScript. By locking down the amount of interactivity the user can have with objects you've placed on the screen, you have fewer scenarios that your customisations have to cater for.
+Express mode is in many ways ideal for customisation (or customization, as our American cousins have it) with JavaScript. By locking down the amount of interactivity the user can have with objects you've placed on the screen, you have fewer scenarios that your customisations have to cater for.
 
 There are problems though. If you're doing something very superficial with jQuery, you've probably discovered that it's not easy to get a reference to the DOM element you want to manipulate, and if you do (usually by finding the 'K value' of the object you're interested in), you also find that it changes when changes are made to the document in MicroStrategy. There's also the problem of objects not rendering in the DOM until they become visible on screen.
 

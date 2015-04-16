@@ -14,5 +14,7 @@ It's an area that the formal documentation doesn't cover (yet), but [buried in t
 
 Adding a fragment like that to an HTML Container on your Report Services document will load an external script (or a number of scripts, as the function takes an array), and then call the function you specify once they've loaded. It's an ideal workflow if you need to load a library, and then immediately use it to customise the appearance of the document.
 
+**Update: [I've created a simple plugin]({% post_url 2015-04-15-mstr-jquery-helper %}) to facilitate the sort of selective loading I describe in this post.**
+
 [1]: http://www.bryanbrandow.com/2013/01/using-jquery-in-microstrategy-dashboards.html
 [2]: https://www.microstrategy.com/us/microstrategyworld/resource?world-res=v1247

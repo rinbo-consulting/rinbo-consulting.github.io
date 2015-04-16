@@ -6,7 +6,7 @@ category: MicroStrategy
 tags: Technical SDK JavaScript
 ---
 
-So, today I've decided to do some of my exploratory work in the open. I've published a (very) small jQuery plugin, and accompanying MicroStrategy web plugin to make web customisation easier, and simpler to get started with.
+So, today I've decided to do some of my exploratory work in the open. I've published a (very) small jQuery plugin, and accompanying MicroStrategy web plugin to make web customisation (or customization, for Google's benefit) easier, and simpler to get started with.
 
 The [source code is here](https://github.com/rinbo-consulting/jquery-mstr-helper), and [I've published to npm too](https://www.npmjs.com/package/mstr-helper), which is the new home for jQuery plugins.
 
