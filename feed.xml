@@ -6,9 +6,32 @@
 </description>
     <link>http://www.rinbo-consulting.co.uk/</link>
     <atom:link href="http://www.rinbo-consulting.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 15 Apr 2015 12:55:35 +0100</pubDate>
-    <lastBuildDate>Wed, 15 Apr 2015 12:55:35 +0100</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2015 08:04:54 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2015 08:04:54 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>mstr-helper&amp;#58; A jQuery plugin to help with MicroStrategy customisation</title>
+        <description>&lt;p&gt;So, today I’ve decided to do some of my exploratory work in the open. I’ve published a (very) small jQuery plugin, and accompanying MicroStrategy web plugin to make web customisation easier, and simpler to get started with.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://github.com/rinbo-consulting/jquery-mstr-helper&quot;&gt;source code is here&lt;/a&gt;, and &lt;a href=&quot;https://www.npmjs.com/package/mstr-helper&quot;&gt;I’ve published to npm too&lt;/a&gt;, which is the new home for jQuery plugins.&lt;/p&gt;
+
+&lt;p&gt;It provides a simple lazy-loading mechanism, and will grow to include various helper functions to make selecting and manipulating elements on the dashboard more straightforward. At first, it just has a selector extension to make finding the appropriate elements to manipulate easier.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Apr 2015 21:04:00 +0100</pubDate>
+        <link>http://www.rinbo-consulting.co.uk/microstrategy/2015/04/15/mstr-jquery-helper.html</link>
+        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2015/04/15/mstr-jquery-helper.html</guid>
+        
+        <category>Technical</category>
+        
+        <category>SDK</category>
+        
+        <category>JavaScript</category>
+        
+        
+        <category>microstrategy</category>
+        
+      </item>
     
       <item>
         <title>Customising MicroStrategy Report Services Documents</title>
