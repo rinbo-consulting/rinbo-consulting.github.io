@@ -4,10 +4,10 @@
     <title>Rinbo Consulting</title>
     <description>A mixture of thoughts on Business Intelligence, MicroStrategy, and IT in general 
 </description>
-    <link>http://www.rinbo-consulting.co.uk/</link>
-    <atom:link href="http://www.rinbo-consulting.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 16 Apr 2015 08:19:06 +0100</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2015 08:19:06 +0100</lastBuildDate>
+    <link>http://rinbo.consulting/</link>
+    <atom:link href="http://rinbo.consulting/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 04 May 2015 20:24:01 +0100</pubDate>
+    <lastBuildDate>Mon, 04 May 2015 20:24:01 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -19,8 +19,8 @@
 &lt;p&gt;It provides a simple lazy-loading mechanism, and will grow to include various helper functions to make selecting and manipulating elements on the dashboard more straightforward. At first, it just has a selector extension to make finding the appropriate elements to manipulate easier.&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Apr 2015 21:04:00 +0100</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2015/04/15/mstr-jquery-helper.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2015/04/15/mstr-jquery-helper.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2015/04/15/mstr-jquery-helper.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2015/04/15/mstr-jquery-helper.html</guid>
         
         <category>Technical</category>
         
@@ -49,8 +49,8 @@
 
 </description>
         <pubDate>Wed, 08 Oct 2014 13:04:00 +0100</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2014/10/08/customising-mstr-express-docs.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2014/10/08/customising-mstr-express-docs.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2014/10/08/customising-mstr-express-docs.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2014/10/08/customising-mstr-express-docs.html</guid>
         
         <category>Technical</category>
         
@@ -80,8 +80,8 @@
 &lt;p&gt;When I get the chance to watch the sessions in full over the weekend, I’ll come back to this post and flesh it out with some commentary.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Jul 2014 13:08:00 +0100</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2014/07/11/mstr-world-europe-2014.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2014/07/11/mstr-world-europe-2014.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2014/07/11/mstr-world-europe-2014.html</guid>
         
         
         <category>microstrategy</category>
@@ -102,8 +102,8 @@
 
 </description>
         <pubDate>Sat, 24 May 2014 13:04:00 +0100</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2014/05/24/load-libraries-selectively.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2014/05/24/load-libraries-selectively.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2014/05/24/load-libraries-selectively.html</guid>
         
         <category>Technical</category>
         
@@ -128,8 +128,8 @@
 
 </description>
         <pubDate>Thu, 20 Feb 2014 19:37:00 +0000</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2014/02/20/beyond-command-manager.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2014/02/20/beyond-command-manager.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2014/02/20/beyond-command-manager.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2014/02/20/beyond-command-manager.html</guid>
         
         <category>Groovy</category>
         
@@ -160,8 +160,8 @@
 
 </description>
         <pubDate>Tue, 11 Feb 2014 20:14:00 +0000</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/microstrategy/2014/02/11/groovy-and-mstr.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/microstrategy/2014/02/11/groovy-and-mstr.html</guid>
+        <link>http://rinbo.consulting/microstrategy/2014/02/11/groovy-and-mstr.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/microstrategy/2014/02/11/groovy-and-mstr.html</guid>
         
         <category>Groovy</category>
         
@@ -181,8 +181,8 @@
 &lt;p&gt;Particularly when their project is late, and over-budget.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Nov 2013 21:59:00 +0000</pubDate>
-        <link>http://www.rinbo-consulting.co.uk/observations/2013/11/14/quick-and-dirty.html</link>
-        <guid isPermaLink="true">http://www.rinbo-consulting.co.uk/observations/2013/11/14/quick-and-dirty.html</guid>
+        <link>http://rinbo.consulting/observations/2013/11/14/quick-and-dirty.html</link>
+        <guid isPermaLink="true">http://rinbo.consulting/observations/2013/11/14/quick-and-dirty.html</guid>
         
         <category>Non-technical</category>
         
