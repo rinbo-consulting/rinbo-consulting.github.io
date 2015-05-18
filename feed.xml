@@ -6,13 +6,13 @@
 </description>
     <link>http://rinbo.consulting/</link>
     <atom:link href="http://rinbo.consulting/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 May 2015 14:04:49 +0100</pubDate>
-    <lastBuildDate>Mon, 18 May 2015 14:04:49 +0100</lastBuildDate>
+    <pubDate>Mon, 18 May 2015 14:06:52 +0100</pubDate>
+    <lastBuildDate>Mon, 18 May 2015 14:06:52 +0100</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>What is Big Data, and who cares? A non-technical take</title>
-        <description>&lt;p&gt;If you work in information technology, or a related field, you can’t have failed to notice one buzzphrase “Big Data”. Seemingly every job description, architectural roadmap, or sales pitch contains it. What does it mean?&lt;/p&gt;
+        <description>&lt;p&gt;If you work in information technology, or a related field, you can’t have failed to notice one buzzphrase: “Big Data”. Seemingly every job description, architectural roadmap, or sales pitch contains it. What does it mean?&lt;/p&gt;
 
 &lt;p&gt;The technology underpinning Big Data (and the history of that is for another post) means that storing, and more importantly, processing and accessing, incredibly large amounts of data is cheaper and more accessible than ever before. Most companies of a reasonable size can keep and analyse more information than they’ve ever been able to.&lt;/p&gt;
 
