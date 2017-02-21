@@ -11,9 +11,6 @@ github_username:  rinbo-consulting
 # Build settings
 markdown: kramdown
 
-include:
-  - ".nojekyll"
-
 exclude:
   - ".gitignore"
   - "Rakefile"
