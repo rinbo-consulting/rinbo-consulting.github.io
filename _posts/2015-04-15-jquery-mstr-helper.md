@@ -1,6 +1,6 @@
 ---
 layout: post
-title: mstr-helper&#58; A jQuery plugin to help with MicroStrategy customisation
+title: jquery-mstr-helper&#58; A jQuery plugin to help with MicroStrategy customisation
 date: 2015-04-15 21:04
 category: MicroStrategy
 tags: Technical SDK JavaScript
